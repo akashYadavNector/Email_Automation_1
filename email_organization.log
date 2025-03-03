@@ -1,0 +1,798 @@
+2025-03-03 12:05:05,011 - INFO - Starting enhanced email organization process...
+2025-03-03 12:05:05,011 - INFO - Attempting to create IMAP connection to imap.hostinger.com...
+2025-03-03 12:05:06,017 - INFO - Successfully connected and logged in to IMAP server.
+2025-03-03 12:05:06,018 - INFO - Pre-creating all category folders...
+2025-03-03 12:05:06,365 - INFO - Created category folder: INBOX.To_Respond
+2025-03-03 12:05:06,536 - INFO - Created importance folder: INBOX.To_Respond.High
+2025-03-03 12:05:06,708 - INFO - Created importance folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:06,883 - INFO - Created category folder: INBOX.B2B_Query
+2025-03-03 12:05:07,056 - INFO - Created importance folder: INBOX.B2B_Query.High
+2025-03-03 12:05:07,239 - INFO - Created importance folder: INBOX.B2B_Query.Normal
+2025-03-03 12:05:07,430 - INFO - Created category folder: INBOX.Business_Critical
+2025-03-03 12:05:07,602 - INFO - Created importance folder: INBOX.Business_Critical.High
+2025-03-03 12:05:07,773 - INFO - Created importance folder: INBOX.Business_Critical.Normal
+2025-03-03 12:05:07,948 - INFO - Created category folder: INBOX.FYI
+2025-03-03 12:05:08,120 - INFO - Created importance folder: INBOX.FYI.High
+2025-03-03 12:05:08,292 - INFO - Created importance folder: INBOX.FYI.Normal
+2025-03-03 12:05:08,463 - INFO - Created category folder: INBOX.Comment
+2025-03-03 12:05:08,667 - INFO - Created importance folder: INBOX.Comment.High
+2025-03-03 12:05:08,837 - INFO - Created importance folder: INBOX.Comment.Normal
+2025-03-03 12:05:09,008 - INFO - Created category folder: INBOX.Notification
+2025-03-03 12:05:09,178 - INFO - Created importance folder: INBOX.Notification.High
+2025-03-03 12:05:09,349 - INFO - Created importance folder: INBOX.Notification.Normal
+2025-03-03 12:05:09,521 - INFO - Created category folder: INBOX.Meeting_Update
+2025-03-03 12:05:09,694 - INFO - Created importance folder: INBOX.Meeting_Update.High
+2025-03-03 12:05:09,865 - INFO - Created importance folder: INBOX.Meeting_Update.Normal
+2025-03-03 12:05:10,036 - INFO - Created category folder: INBOX.Awaiting_Reply
+2025-03-03 12:05:10,209 - INFO - Created importance folder: INBOX.Awaiting_Reply.High
+2025-03-03 12:05:10,381 - INFO - Created importance folder: INBOX.Awaiting_Reply.Normal
+2025-03-03 12:05:10,553 - INFO - Created category folder: INBOX.Actioned
+2025-03-03 12:05:10,727 - INFO - Created importance folder: INBOX.Actioned.High
+2025-03-03 12:05:10,897 - INFO - Created importance folder: INBOX.Actioned.Normal
+2025-03-03 12:05:11,069 - INFO - Created category folder: INBOX.Marketing
+2025-03-03 12:05:11,243 - INFO - Created importance folder: INBOX.Marketing.High
+2025-03-03 12:05:11,414 - INFO - Created importance folder: INBOX.Marketing.Normal
+2025-03-03 12:05:11,586 - INFO - Created category folder: INBOX.Developer_Testing
+2025-03-03 12:05:11,757 - INFO - Created importance folder: INBOX.Developer_Testing.High
+2025-03-03 12:05:11,929 - INFO - Created importance folder: INBOX.Developer_Testing.Normal
+2025-03-03 12:05:12,099 - INFO - Created category folder: INBOX.General_Inquiry
+2025-03-03 12:05:12,273 - INFO - Created importance folder: INBOX.General_Inquiry.High
+2025-03-03 12:05:12,450 - INFO - Created importance folder: INBOX.General_Inquiry.Normal
+2025-03-03 12:05:12,837 - INFO - Found 2576 emails in INBOX
+2025-03-03 12:05:12,837 - INFO - Processing batch 1 to 50 of 2576 emails
+2025-03-03 12:05:12,837 - INFO - Processing email ID: b'261'
+2025-03-03 12:05:13,048 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:13,055 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:13,055 - INFO - Moving email ID b'261' to folder Meeting Update/Normal
+2025-03-03 12:05:13,227 - INFO - Attempting to create folder: INBOX.Meeting_Update.Normal
+2025-03-03 12:05:13,401 - INFO - Folder 'INBOX.Meeting_Update.Normal' already exists.
+2025-03-03 12:05:13,752 - INFO - Successfully moved email ID b'261' to folder 'INBOX.Meeting_Update.Normal'
+2025-03-03 12:05:13,752 - INFO - Email ID 261 classified as Meeting Update (Importance: Normal) and moved successfully
+2025-03-03 12:05:13,752 - INFO - Processing email ID: b'263'
+2025-03-03 12:05:13,927 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:05:13,927 - INFO - Moving email ID b'263' to folder B2B Query/High
+2025-03-03 12:05:14,099 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:14,274 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:14,624 - INFO - Successfully moved email ID b'263' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:14,624 - INFO - Email ID 263 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:14,624 - INFO - Processing email ID: b'265'
+2025-03-03 12:05:15,002 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:15,003 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:15,003 - INFO - Moving email ID b'265' to folder Business Critical/High
+2025-03-03 12:05:15,176 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:15,349 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:15,708 - INFO - Successfully moved email ID b'265' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:15,709 - INFO - Email ID 265 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:15,709 - INFO - Processing email ID: b'267'
+2025-03-03 12:05:15,882 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:05:15,882 - INFO - Moving email ID b'267' to folder B2B Query/High
+2025-03-03 12:05:16,055 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:16,227 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:16,579 - INFO - Successfully moved email ID b'267' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:16,579 - INFO - Email ID 267 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:16,579 - INFO - Processing email ID: b'269'
+2025-03-03 12:05:16,796 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:16,797 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:16,797 - INFO - Moving email ID b'269' to folder Business Critical/High
+2025-03-03 12:05:16,973 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:17,146 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:17,493 - INFO - Successfully moved email ID b'269' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:17,493 - INFO - Email ID 269 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:17,493 - INFO - Processing email ID: b'271'
+2025-03-03 12:05:17,832 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:17,833 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:17,833 - INFO - Moving email ID b'271' to folder Business Critical/High
+2025-03-03 12:05:18,006 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:18,179 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:18,527 - INFO - Successfully moved email ID b'271' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:18,527 - INFO - Email ID 271 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:18,527 - INFO - Processing email ID: b'273'
+2025-03-03 12:05:18,712 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:18,712 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:18,713 - INFO - Moving email ID b'273' to folder B2B Query/High
+2025-03-03 12:05:18,884 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:19,058 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:19,407 - INFO - Successfully moved email ID b'273' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:19,407 - INFO - Email ID 273 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:19,407 - INFO - Processing email ID: b'275'
+2025-03-03 12:05:19,580 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:05:19,580 - INFO - Moving email ID b'275' to folder B2B Query/High
+2025-03-03 12:05:19,753 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:19,924 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:20,272 - INFO - Successfully moved email ID b'275' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:20,273 - INFO - Email ID 275 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:20,273 - INFO - Processing email ID: b'277'
+2025-03-03 12:05:20,446 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:20,449 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:20,449 - INFO - Moving email ID b'277' to folder To Respond/Normal
+2025-03-03 12:05:20,622 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:20,793 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:05:21,145 - INFO - Successfully moved email ID b'277' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:05:21,145 - INFO - Email ID 277 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:05:21,145 - INFO - Processing email ID: b'279'
+2025-03-03 12:05:21,321 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:21,321 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:21,321 - INFO - Moving email ID b'279' to folder B2B Query/High
+2025-03-03 12:05:21,494 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:21,668 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:22,018 - INFO - Successfully moved email ID b'279' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:22,018 - INFO - Email ID 279 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:22,018 - INFO - Progress: Processed 10 of 2576 emails. Success: 10
+2025-03-03 12:05:22,019 - INFO - Processing email ID: b'281'
+2025-03-03 12:05:22,409 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:22,409 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:22,409 - INFO - Moving email ID b'281' to folder Business Critical/High
+2025-03-03 12:05:22,581 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:22,752 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:23,103 - INFO - Successfully moved email ID b'281' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:23,103 - INFO - Email ID 281 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:23,103 - INFO - Processing email ID: b'283'
+2025-03-03 12:05:23,276 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:23,276 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:23,276 - INFO - Moving email ID b'283' to folder To Respond/Normal
+2025-03-03 12:05:23,449 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:23,621 - INFO - Logging out from IMAP server...
+2025-03-03 12:05:23,622 - ERROR - Failed to log out: command: LOGOUT => unexpected response: b' (\\HasNoChildren \\Marked) "." INBOX.Meeting_Update.Normal'
+2025-03-03 12:05:33,206 - INFO - Starting enhanced email organization process...
+2025-03-03 12:05:33,206 - INFO - Attempting to create IMAP connection to imap.hostinger.com...
+2025-03-03 12:05:34,144 - INFO - Successfully connected and logged in to IMAP server.
+2025-03-03 12:05:34,144 - INFO - Pre-creating all category folders...
+2025-03-03 12:05:34,493 - INFO - Created category folder: INBOX.To_Respond
+2025-03-03 12:05:34,667 - INFO - Created importance folder: INBOX.To_Respond.High
+2025-03-03 12:05:34,844 - INFO - Created importance folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:35,019 - INFO - Created category folder: INBOX.B2B_Query
+2025-03-03 12:05:35,194 - INFO - Created importance folder: INBOX.B2B_Query.High
+2025-03-03 12:05:35,368 - INFO - Created importance folder: INBOX.B2B_Query.Normal
+2025-03-03 12:05:35,543 - INFO - Created category folder: INBOX.Business_Critical
+2025-03-03 12:05:35,718 - INFO - Created importance folder: INBOX.Business_Critical.High
+2025-03-03 12:05:35,892 - INFO - Created importance folder: INBOX.Business_Critical.Normal
+2025-03-03 12:05:36,064 - INFO - Created category folder: INBOX.FYI
+2025-03-03 12:05:36,239 - INFO - Created importance folder: INBOX.FYI.High
+2025-03-03 12:05:36,413 - INFO - Created importance folder: INBOX.FYI.Normal
+2025-03-03 12:05:36,591 - INFO - Created category folder: INBOX.Comment
+2025-03-03 12:05:36,764 - INFO - Created importance folder: INBOX.Comment.High
+2025-03-03 12:05:36,945 - INFO - Created importance folder: INBOX.Comment.Normal
+2025-03-03 12:05:37,122 - INFO - Created category folder: INBOX.Notification
+2025-03-03 12:05:37,296 - INFO - Created importance folder: INBOX.Notification.High
+2025-03-03 12:05:37,469 - INFO - Created importance folder: INBOX.Notification.Normal
+2025-03-03 12:05:37,645 - INFO - Created category folder: INBOX.Meeting_Update
+2025-03-03 12:05:37,819 - INFO - Created importance folder: INBOX.Meeting_Update.High
+2025-03-03 12:05:37,993 - INFO - Created importance folder: INBOX.Meeting_Update.Normal
+2025-03-03 12:05:38,169 - INFO - Created category folder: INBOX.Awaiting_Reply
+2025-03-03 12:05:38,344 - INFO - Created importance folder: INBOX.Awaiting_Reply.High
+2025-03-03 12:05:38,518 - INFO - Created importance folder: INBOX.Awaiting_Reply.Normal
+2025-03-03 12:05:38,691 - INFO - Created category folder: INBOX.Actioned
+2025-03-03 12:05:38,868 - INFO - Created importance folder: INBOX.Actioned.High
+2025-03-03 12:05:39,042 - INFO - Created importance folder: INBOX.Actioned.Normal
+2025-03-03 12:05:39,219 - INFO - Created category folder: INBOX.Marketing
+2025-03-03 12:05:39,405 - INFO - Created importance folder: INBOX.Marketing.High
+2025-03-03 12:05:39,578 - INFO - Created importance folder: INBOX.Marketing.Normal
+2025-03-03 12:05:39,763 - INFO - Created category folder: INBOX.Developer_Testing
+2025-03-03 12:05:39,937 - INFO - Created importance folder: INBOX.Developer_Testing.High
+2025-03-03 12:05:40,111 - INFO - Created importance folder: INBOX.Developer_Testing.Normal
+2025-03-03 12:05:40,284 - INFO - Created category folder: INBOX.General_Inquiry
+2025-03-03 12:05:40,459 - INFO - Created importance folder: INBOX.General_Inquiry.High
+2025-03-03 12:05:40,632 - INFO - Created importance folder: INBOX.General_Inquiry.Normal
+2025-03-03 12:05:41,024 - INFO - Found 2565 emails in INBOX
+2025-03-03 12:05:41,024 - INFO - Processing batch 1 to 50 of 2565 emails
+2025-03-03 12:05:41,025 - INFO - Processing email ID: b'283'
+2025-03-03 12:05:41,235 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:41,239 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:41,239 - INFO - Moving email ID b'283' to folder To Respond/Normal
+2025-03-03 12:05:41,414 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:41,589 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:05:41,951 - INFO - Successfully moved email ID b'283' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:05:41,951 - INFO - Email ID 283 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:05:41,951 - INFO - Processing email ID: b'285'
+2025-03-03 12:05:43,122 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:43,123 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:43,123 - INFO - Moving email ID b'285' to folder To Respond/Normal
+2025-03-03 12:05:43,299 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:43,477 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:05:43,831 - INFO - Successfully moved email ID b'285' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:05:43,831 - INFO - Email ID 285 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:05:43,832 - INFO - Processing email ID: b'287'
+2025-03-03 12:05:44,227 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:44,227 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:44,227 - INFO - Moving email ID b'287' to folder FYI/Normal
+2025-03-03 12:05:44,404 - INFO - Attempting to create folder: INBOX.FYI.Normal
+2025-03-03 12:05:44,579 - INFO - Folder 'INBOX.FYI.Normal' already exists.
+2025-03-03 12:05:44,935 - INFO - Successfully moved email ID b'287' to folder 'INBOX.FYI.Normal'
+2025-03-03 12:05:44,935 - INFO - Email ID 287 classified as FYI (Importance: Normal) and moved successfully
+2025-03-03 12:05:44,935 - INFO - Processing email ID: b'289'
+2025-03-03 12:05:45,119 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:45,119 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:45,119 - INFO - Moving email ID b'289' to folder Business Critical/High
+2025-03-03 12:05:45,293 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:45,470 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:45,828 - INFO - Successfully moved email ID b'289' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:45,828 - INFO - Email ID 289 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:45,828 - INFO - Processing email ID: b'291'
+2025-03-03 12:05:46,123 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:46,124 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:46,124 - INFO - Moving email ID b'291' to folder Business Critical/High
+2025-03-03 12:05:46,300 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:46,475 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:46,830 - INFO - Successfully moved email ID b'291' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:46,830 - INFO - Email ID 291 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:46,831 - INFO - Processing email ID: b'293'
+2025-03-03 12:05:47,006 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:05:47,006 - INFO - Moving email ID b'293' to folder B2B Query/High
+2025-03-03 12:05:47,181 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:47,356 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:47,710 - INFO - Successfully moved email ID b'293' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:47,710 - INFO - Email ID 293 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:47,710 - INFO - Processing email ID: b'295'
+2025-03-03 12:05:47,885 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:05:47,885 - INFO - Moving email ID b'295' to folder B2B Query/High
+2025-03-03 12:05:48,065 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:48,239 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:48,594 - INFO - Successfully moved email ID b'295' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:48,594 - INFO - Email ID 295 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:48,595 - INFO - Processing email ID: b'297'
+2025-03-03 12:05:48,771 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:48,772 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:48,772 - INFO - Moving email ID b'297' to folder Marketing/High
+2025-03-03 12:05:48,946 - INFO - Attempting to create folder: INBOX.Marketing.High
+2025-03-03 12:05:49,121 - INFO - Folder 'INBOX.Marketing.High' already exists.
+2025-03-03 12:05:49,474 - INFO - Successfully moved email ID b'297' to folder 'INBOX.Marketing.High'
+2025-03-03 12:05:49,474 - INFO - Email ID 297 classified as Marketing (Importance: High) and moved successfully
+2025-03-03 12:05:49,474 - INFO - Processing email ID: b'299'
+2025-03-03 12:05:49,657 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:49,658 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:49,658 - INFO - Moving email ID b'299' to folder Business Critical/High
+2025-03-03 12:05:49,832 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:50,008 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:50,363 - INFO - Successfully moved email ID b'299' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:50,363 - INFO - Email ID 299 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:50,363 - INFO - Processing email ID: b'301'
+2025-03-03 12:05:50,584 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:50,584 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:50,584 - INFO - Moving email ID b'301' to folder Business Critical/High
+2025-03-03 12:05:50,758 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:50,937 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:51,291 - INFO - Successfully moved email ID b'301' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:51,291 - INFO - Email ID 301 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:51,292 - INFO - Progress: Processed 10 of 2565 emails. Success: 10
+2025-03-03 12:05:51,292 - INFO - Processing email ID: b'303'
+2025-03-03 12:05:51,470 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:51,470 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:51,470 - INFO - Moving email ID b'303' to folder Meeting Update/Normal
+2025-03-03 12:05:51,646 - INFO - Attempting to create folder: INBOX.Meeting_Update.Normal
+2025-03-03 12:05:51,821 - INFO - Folder 'INBOX.Meeting_Update.Normal' already exists.
+2025-03-03 12:05:52,177 - INFO - Successfully moved email ID b'303' to folder 'INBOX.Meeting_Update.Normal'
+2025-03-03 12:05:52,178 - INFO - Email ID 303 classified as Meeting Update (Importance: Normal) and moved successfully
+2025-03-03 12:05:52,178 - INFO - Processing email ID: b'305'
+2025-03-03 12:05:52,358 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:52,358 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:52,359 - INFO - Moving email ID b'305' to folder To Respond/High
+2025-03-03 12:05:52,535 - INFO - Attempting to create folder: INBOX.To_Respond.High
+2025-03-03 12:05:52,711 - INFO - Folder 'INBOX.To_Respond.High' already exists.
+2025-03-03 12:05:53,068 - INFO - Successfully moved email ID b'305' to folder 'INBOX.To_Respond.High'
+2025-03-03 12:05:53,068 - INFO - Email ID 305 classified as To Respond (Importance: High) and moved successfully
+2025-03-03 12:05:53,068 - INFO - Processing email ID: b'307'
+2025-03-03 12:05:53,256 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:53,257 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:53,257 - INFO - Moving email ID b'307' to folder To Respond/Normal
+2025-03-03 12:05:53,431 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:53,606 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:05:53,959 - INFO - Successfully moved email ID b'307' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:05:53,959 - INFO - Email ID 307 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:05:53,959 - INFO - Processing email ID: b'309'
+2025-03-03 12:05:54,139 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:54,141 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:54,141 - INFO - Moving email ID b'309' to folder To Respond/Normal
+2025-03-03 12:05:54,315 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:05:54,490 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:05:54,844 - INFO - Successfully moved email ID b'309' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:05:54,844 - INFO - Email ID 309 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:05:54,845 - INFO - Processing email ID: b'311'
+2025-03-03 12:05:55,243 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:55,243 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:55,243 - INFO - Moving email ID b'311' to folder B2B Query/High
+2025-03-03 12:05:55,419 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:55,596 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:55,950 - INFO - Successfully moved email ID b'311' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:55,950 - INFO - Email ID 311 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:55,951 - INFO - Processing email ID: b'313'
+2025-03-03 12:05:56,144 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:56,144 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:56,144 - INFO - Moving email ID b'313' to folder Business Critical/High
+2025-03-03 12:05:56,319 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:05:56,493 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:05:56,846 - INFO - Successfully moved email ID b'313' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:05:56,847 - INFO - Email ID 313 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:05:56,847 - INFO - Processing email ID: b'315'
+2025-03-03 12:05:57,269 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:57,269 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:57,269 - INFO - Moving email ID b'315' to folder FYI/High
+2025-03-03 12:05:57,445 - INFO - Attempting to create folder: INBOX.FYI.High
+2025-03-03 12:05:57,620 - INFO - Folder 'INBOX.FYI.High' already exists.
+2025-03-03 12:05:57,974 - INFO - Successfully moved email ID b'315' to folder 'INBOX.FYI.High'
+2025-03-03 12:05:57,974 - INFO - Email ID 315 classified as FYI (Importance: High) and moved successfully
+2025-03-03 12:05:57,975 - INFO - Processing email ID: b'317'
+2025-03-03 12:05:58,152 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:05:58,152 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:05:58,153 - INFO - Moving email ID b'317' to folder FYI/High
+2025-03-03 12:05:58,328 - INFO - Attempting to create folder: INBOX.FYI.High
+2025-03-03 12:05:58,503 - INFO - Folder 'INBOX.FYI.High' already exists.
+2025-03-03 12:05:58,860 - INFO - Successfully moved email ID b'317' to folder 'INBOX.FYI.High'
+2025-03-03 12:05:58,860 - INFO - Email ID 317 classified as FYI (Importance: High) and moved successfully
+2025-03-03 12:05:58,860 - INFO - Processing email ID: b'319'
+2025-03-03 12:05:59,115 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:05:59,115 - INFO - Moving email ID b'319' to folder B2B Query/High
+2025-03-03 12:05:59,289 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:05:59,465 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:05:59,821 - INFO - Successfully moved email ID b'319' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:05:59,821 - INFO - Email ID 319 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:05:59,821 - INFO - Processing email ID: b'321'
+2025-03-03 12:06:00,178 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:06:00,178 - INFO - Moving email ID b'321' to folder B2B Query/High
+2025-03-03 12:06:00,352 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:00,527 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:00,882 - INFO - Successfully moved email ID b'321' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:00,882 - INFO - Email ID 321 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:00,883 - INFO - Progress: Processed 20 of 2565 emails. Success: 20
+2025-03-03 12:06:00,883 - INFO - Processing email ID: b'323'
+2025-03-03 12:06:01,059 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:01,060 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:01,060 - INFO - Moving email ID b'323' to folder General Inquiry/Normal
+2025-03-03 12:06:01,235 - INFO - Attempting to create folder: INBOX.General_Inquiry.Normal
+2025-03-03 12:06:01,409 - INFO - Folder 'INBOX.General_Inquiry.Normal' already exists.
+2025-03-03 12:06:01,764 - INFO - Successfully moved email ID b'323' to folder 'INBOX.General_Inquiry.Normal'
+2025-03-03 12:06:01,764 - INFO - Email ID 323 classified as General Inquiry (Importance: Normal) and moved successfully
+2025-03-03 12:06:01,764 - INFO - Processing email ID: b'325'
+2025-03-03 12:06:01,955 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:01,956 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:01,956 - INFO - Moving email ID b'325' to folder Business Critical/High
+2025-03-03 12:06:02,133 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:06:02,308 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:06:02,664 - INFO - Successfully moved email ID b'325' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:06:02,664 - INFO - Email ID 325 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:06:02,664 - INFO - Processing email ID: b'327'
+2025-03-03 12:06:02,993 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:02,993 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:02,993 - INFO - Moving email ID b'327' to folder B2B Query/High
+2025-03-03 12:06:03,168 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:03,343 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:03,698 - INFO - Successfully moved email ID b'327' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:03,699 - INFO - Email ID 327 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:03,699 - INFO - Processing email ID: b'329'
+2025-03-03 12:06:03,940 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:03,941 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:03,941 - INFO - Moving email ID b'329' to folder Business Critical/High
+2025-03-03 12:06:04,115 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:06:04,289 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:06:04,642 - INFO - Successfully moved email ID b'329' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:06:04,642 - INFO - Email ID 329 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:06:04,643 - INFO - Processing email ID: b'331'
+2025-03-03 12:06:04,831 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:04,831 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:04,832 - INFO - Moving email ID b'331' to folder To Respond/Normal
+2025-03-03 12:06:05,008 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:06:05,182 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:06:05,535 - INFO - Successfully moved email ID b'331' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:06:05,536 - INFO - Email ID 331 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:06:05,536 - INFO - Processing email ID: b'333'
+2025-03-03 12:06:05,826 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:05,827 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:05,827 - INFO - Moving email ID b'333' to folder General Inquiry/High
+2025-03-03 12:06:06,002 - INFO - Attempting to create folder: INBOX.General_Inquiry.High
+2025-03-03 12:06:06,178 - INFO - Folder 'INBOX.General_Inquiry.High' already exists.
+2025-03-03 12:06:06,537 - INFO - Successfully moved email ID b'333' to folder 'INBOX.General_Inquiry.High'
+2025-03-03 12:06:06,537 - INFO - Email ID 333 classified as General Inquiry (Importance: High) and moved successfully
+2025-03-03 12:06:06,538 - INFO - Processing email ID: b'335'
+2025-03-03 12:06:06,731 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:06,731 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:06,731 - INFO - Moving email ID b'335' to folder B2B Query/High
+2025-03-03 12:06:06,905 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:07,082 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:07,435 - INFO - Successfully moved email ID b'335' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:07,435 - INFO - Email ID 335 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:07,436 - INFO - Processing email ID: b'337'
+2025-03-03 12:06:07,719 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:06:07,719 - INFO - Moving email ID b'337' to folder B2B Query/High
+2025-03-03 12:06:07,895 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:08,070 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:08,424 - INFO - Successfully moved email ID b'337' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:08,424 - INFO - Email ID 337 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:08,425 - INFO - Processing email ID: b'339'
+2025-03-03 12:06:08,607 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:08,608 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:08,608 - INFO - Moving email ID b'339' to folder General Inquiry/High
+2025-03-03 12:06:08,783 - INFO - Attempting to create folder: INBOX.General_Inquiry.High
+2025-03-03 12:06:08,958 - INFO - Folder 'INBOX.General_Inquiry.High' already exists.
+2025-03-03 12:06:09,312 - INFO - Successfully moved email ID b'339' to folder 'INBOX.General_Inquiry.High'
+2025-03-03 12:06:09,313 - INFO - Email ID 339 classified as General Inquiry (Importance: High) and moved successfully
+2025-03-03 12:06:09,313 - INFO - Processing email ID: b'341'
+2025-03-03 12:06:09,492 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:09,492 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:09,492 - INFO - Moving email ID b'341' to folder Business Critical/High
+2025-03-03 12:06:09,668 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:06:09,842 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:06:10,199 - INFO - Successfully moved email ID b'341' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:06:10,199 - INFO - Email ID 341 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:06:10,199 - INFO - Progress: Processed 30 of 2565 emails. Success: 30
+2025-03-03 12:06:10,200 - INFO - Processing email ID: b'343'
+2025-03-03 12:06:10,437 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:10,438 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:10,438 - INFO - Moving email ID b'343' to folder Business Critical/High
+2025-03-03 12:06:10,614 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:06:10,789 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:06:11,142 - INFO - Successfully moved email ID b'343' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:06:11,142 - INFO - Email ID 343 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:06:11,143 - INFO - Processing email ID: b'345'
+2025-03-03 12:06:11,362 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:06:11,363 - INFO - Moving email ID b'345' to folder B2B Query/High
+2025-03-03 12:06:11,536 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:11,711 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:12,069 - INFO - Successfully moved email ID b'345' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:12,069 - INFO - Email ID 345 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:12,069 - INFO - Processing email ID: b'347'
+2025-03-03 12:06:12,263 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:12,263 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:12,263 - INFO - Moving email ID b'347' to folder Business Critical/High
+2025-03-03 12:06:12,439 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:06:12,614 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:06:12,967 - INFO - Successfully moved email ID b'347' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:06:12,967 - INFO - Email ID 347 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:06:12,967 - INFO - Processing email ID: b'349'
+2025-03-03 12:06:13,167 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:13,168 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:13,168 - INFO - Moving email ID b'349' to folder To Respond/Normal
+2025-03-03 12:06:13,343 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:06:13,517 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:06:13,874 - INFO - Successfully moved email ID b'349' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:06:13,874 - INFO - Email ID 349 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:06:13,875 - INFO - Processing email ID: b'351'
+2025-03-03 12:06:14,071 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:14,071 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:14,072 - INFO - Moving email ID b'351' to folder To Respond/Normal
+2025-03-03 12:06:14,248 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:06:14,423 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:06:14,783 - INFO - Successfully moved email ID b'351' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:06:14,784 - INFO - Email ID 351 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:06:14,784 - INFO - Processing email ID: b'353'
+2025-03-03 12:06:14,970 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:14,971 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:14,971 - INFO - Moving email ID b'353' to folder FYI/High
+2025-03-03 12:06:15,146 - INFO - Attempting to create folder: INBOX.FYI.High
+2025-03-03 12:06:15,320 - INFO - Folder 'INBOX.FYI.High' already exists.
+2025-03-03 12:06:15,677 - INFO - Successfully moved email ID b'353' to folder 'INBOX.FYI.High'
+2025-03-03 12:06:15,677 - INFO - Email ID 353 classified as FYI (Importance: High) and moved successfully
+2025-03-03 12:06:15,677 - INFO - Processing email ID: b'355'
+2025-03-03 12:06:15,859 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:15,859 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:15,859 - INFO - Moving email ID b'355' to folder To Respond/High
+2025-03-03 12:06:16,036 - INFO - Attempting to create folder: INBOX.To_Respond.High
+2025-03-03 12:06:16,214 - INFO - Folder 'INBOX.To_Respond.High' already exists.
+2025-03-03 12:06:16,568 - INFO - Successfully moved email ID b'355' to folder 'INBOX.To_Respond.High'
+2025-03-03 12:06:16,568 - INFO - Email ID 355 classified as To Respond (Importance: High) and moved successfully
+2025-03-03 12:06:16,569 - INFO - Processing email ID: b'357'
+2025-03-03 12:06:16,747 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:16,748 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:16,748 - INFO - Moving email ID b'357' to folder Business Critical/High
+2025-03-03 12:06:16,924 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:06:17,099 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:06:17,453 - INFO - Successfully moved email ID b'357' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:06:17,453 - INFO - Email ID 357 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:06:17,453 - INFO - Processing email ID: b'359'
+2025-03-03 12:06:17,654 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:06:17,655 - INFO - Moving email ID b'359' to folder B2B Query/High
+2025-03-03 12:06:17,830 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:18,004 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:18,359 - INFO - Successfully moved email ID b'359' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:18,359 - INFO - Email ID 359 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:18,360 - INFO - Processing email ID: b'361'
+2025-03-03 12:06:18,593 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:06:18,593 - INFO - Moving email ID b'361' to folder B2B Query/High
+2025-03-03 12:06:18,768 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:18,944 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:19,299 - INFO - Successfully moved email ID b'361' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:19,299 - INFO - Email ID 361 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:19,299 - INFO - Progress: Processed 40 of 2565 emails. Success: 40
+2025-03-03 12:06:19,299 - INFO - Processing email ID: b'363'
+2025-03-03 12:06:19,593 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:19,594 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:19,595 - INFO - Moving email ID b'363' to folder General Inquiry/High
+2025-03-03 12:06:19,769 - INFO - Attempting to create folder: INBOX.General_Inquiry.High
+2025-03-03 12:06:19,944 - INFO - Folder 'INBOX.General_Inquiry.High' already exists.
+2025-03-03 12:06:20,299 - INFO - Successfully moved email ID b'363' to folder 'INBOX.General_Inquiry.High'
+2025-03-03 12:06:20,299 - INFO - Email ID 363 classified as General Inquiry (Importance: High) and moved successfully
+2025-03-03 12:06:20,299 - INFO - Processing email ID: b'365'
+2025-03-03 12:06:20,476 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:06:20,476 - INFO - Moving email ID b'365' to folder B2B Query/High
+2025-03-03 12:06:20,651 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:20,826 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:21,181 - INFO - Successfully moved email ID b'365' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:21,181 - INFO - Email ID 365 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:21,181 - INFO - Processing email ID: b'367'
+2025-03-03 12:06:21,370 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:21,371 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:21,371 - INFO - Moving email ID b'367' to folder Marketing/High
+2025-03-03 12:06:21,545 - INFO - Attempting to create folder: INBOX.Marketing.High
+2025-03-03 12:06:21,724 - INFO - Folder 'INBOX.Marketing.High' already exists.
+2025-03-03 12:06:22,107 - INFO - Successfully moved email ID b'367' to folder 'INBOX.Marketing.High'
+2025-03-03 12:06:22,107 - INFO - Email ID 367 classified as Marketing (Importance: High) and moved successfully
+2025-03-03 12:06:22,108 - INFO - Processing email ID: b'369'
+2025-03-03 12:06:22,400 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:06:22,400 - INFO - Moving email ID b'369' to folder B2B Query/High
+2025-03-03 12:06:22,575 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:22,750 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:23,105 - INFO - Successfully moved email ID b'369' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:23,105 - INFO - Email ID 369 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:23,106 - INFO - Processing email ID: b'371'
+2025-03-03 12:06:23,296 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:23,296 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:23,297 - INFO - Moving email ID b'371' to folder B2B Query/High
+2025-03-03 12:06:23,472 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:23,646 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:24,000 - INFO - Successfully moved email ID b'371' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:06:24,000 - INFO - Email ID 371 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:06:24,000 - INFO - Processing email ID: b'373'
+2025-03-03 12:06:24,181 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:06:24,182 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:06:24,182 - INFO - Moving email ID b'373' to folder B2B Query/High
+2025-03-03 12:06:24,359 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:06:24,533 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:06:24,707 - INFO - Logging out from IMAP server...
+2025-03-03 12:06:24,881 - INFO - Successfully logged out.
+2025-03-03 12:07:53,850 - INFO - Starting enhanced email organization process...
+2025-03-03 12:07:53,850 - INFO - Attempting to create IMAP connection to imap.hostinger.com...
+2025-03-03 12:07:55,009 - INFO - Successfully connected and logged in to IMAP server.
+2025-03-03 12:07:55,009 - INFO - Pre-creating all category folders...
+2025-03-03 12:07:55,397 - INFO - Created category folder: INBOX.To_Respond
+2025-03-03 12:07:55,621 - INFO - Created importance folder: INBOX.To_Respond.High
+2025-03-03 12:07:55,805 - INFO - Created importance folder: INBOX.To_Respond.Normal
+2025-03-03 12:07:55,989 - INFO - Created category folder: INBOX.B2B_Query
+2025-03-03 12:07:56,172 - INFO - Created importance folder: INBOX.B2B_Query.High
+2025-03-03 12:07:56,356 - INFO - Created importance folder: INBOX.B2B_Query.Normal
+2025-03-03 12:07:56,540 - INFO - Created category folder: INBOX.Business_Critical
+2025-03-03 12:07:56,725 - INFO - Created importance folder: INBOX.Business_Critical.High
+2025-03-03 12:07:56,910 - INFO - Created importance folder: INBOX.Business_Critical.Normal
+2025-03-03 12:07:57,097 - INFO - Created category folder: INBOX.FYI
+2025-03-03 12:07:57,282 - INFO - Created importance folder: INBOX.FYI.High
+2025-03-03 12:07:57,479 - INFO - Created importance folder: INBOX.FYI.Normal
+2025-03-03 12:07:57,708 - INFO - Created category folder: INBOX.Comment
+2025-03-03 12:07:58,077 - INFO - Created importance folder: INBOX.Comment.High
+2025-03-03 12:07:58,261 - INFO - Created importance folder: INBOX.Comment.Normal
+2025-03-03 12:07:58,447 - INFO - Created category folder: INBOX.Notification
+2025-03-03 12:07:58,632 - INFO - Created importance folder: INBOX.Notification.High
+2025-03-03 12:07:58,816 - INFO - Created importance folder: INBOX.Notification.Normal
+2025-03-03 12:07:59,000 - INFO - Created category folder: INBOX.Meeting_Update
+2025-03-03 12:07:59,185 - INFO - Created importance folder: INBOX.Meeting_Update.High
+2025-03-03 12:07:59,369 - INFO - Created importance folder: INBOX.Meeting_Update.Normal
+2025-03-03 12:07:59,555 - INFO - Created category folder: INBOX.Awaiting_Reply
+2025-03-03 12:07:59,739 - INFO - Created importance folder: INBOX.Awaiting_Reply.High
+2025-03-03 12:07:59,923 - INFO - Created importance folder: INBOX.Awaiting_Reply.Normal
+2025-03-03 12:08:00,105 - INFO - Created category folder: INBOX.Actioned
+2025-03-03 12:08:00,289 - INFO - Created importance folder: INBOX.Actioned.High
+2025-03-03 12:08:00,474 - INFO - Created importance folder: INBOX.Actioned.Normal
+2025-03-03 12:08:00,659 - INFO - Created category folder: INBOX.Marketing
+2025-03-03 12:08:00,845 - INFO - Created importance folder: INBOX.Marketing.High
+2025-03-03 12:08:01,029 - INFO - Created importance folder: INBOX.Marketing.Normal
+2025-03-03 12:08:01,213 - INFO - Created category folder: INBOX.Developer_Testing
+2025-03-03 12:08:01,395 - INFO - Created importance folder: INBOX.Developer_Testing.High
+2025-03-03 12:08:01,579 - INFO - Created importance folder: INBOX.Developer_Testing.Normal
+2025-03-03 12:08:01,763 - INFO - Created category folder: INBOX.General_Inquiry
+2025-03-03 12:08:01,948 - INFO - Created importance folder: INBOX.General_Inquiry.High
+2025-03-03 12:08:02,133 - INFO - Created importance folder: INBOX.General_Inquiry.Normal
+2025-03-03 12:08:02,542 - INFO - Found 2520 emails in INBOX
+2025-03-03 12:08:02,542 - INFO - Processing batch 1 to 50 of 2520 emails
+2025-03-03 12:08:02,542 - INFO - Processing email ID: b'373'
+2025-03-03 12:08:02,809 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:08:02,810 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:08:02,810 - INFO - Moving email ID b'373' to folder B2B Query/High
+2025-03-03 12:08:02,995 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:08:03,181 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:08:03,564 - INFO - Successfully moved email ID b'373' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:08:03,565 - INFO - Email ID 373 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:08:03,565 - INFO - Processing email ID: b'375'
+2025-03-03 12:08:03,750 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:08:03,754 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:08:03,754 - INFO - Moving email ID b'375' to folder FYI/High
+2025-03-03 12:08:03,939 - INFO - Attempting to create folder: INBOX.FYI.High
+2025-03-03 12:08:04,127 - INFO - Folder 'INBOX.FYI.High' already exists.
+2025-03-03 12:08:04,503 - INFO - Successfully moved email ID b'375' to folder 'INBOX.FYI.High'
+2025-03-03 12:08:04,504 - INFO - Email ID 375 classified as FYI (Importance: High) and moved successfully
+2025-03-03 12:08:04,504 - INFO - Processing email ID: b'377'
+2025-03-03 12:08:04,834 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:08:04,835 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:08:04,836 - INFO - Moving email ID b'377' to folder Marketing/High
+2025-03-03 12:08:05,021 - INFO - Attempting to create folder: INBOX.Marketing.High
+2025-03-03 12:08:05,205 - INFO - Folder 'INBOX.Marketing.High' already exists.
+2025-03-03 12:08:05,583 - INFO - Successfully moved email ID b'377' to folder 'INBOX.Marketing.High'
+2025-03-03 12:08:05,583 - INFO - Email ID 377 classified as Marketing (Importance: High) and moved successfully
+2025-03-03 12:08:05,583 - INFO - Processing email ID: b'379'
+2025-03-03 12:08:05,788 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:08:05,788 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:08:05,788 - INFO - Moving email ID b'379' to folder Business Critical/High
+2025-03-03 12:08:05,971 - INFO - Attempting to create folder: INBOX.Business_Critical.High
+2025-03-03 12:08:06,157 - INFO - Folder 'INBOX.Business_Critical.High' already exists.
+2025-03-03 12:08:06,573 - INFO - Successfully moved email ID b'379' to folder 'INBOX.Business_Critical.High'
+2025-03-03 12:08:06,573 - INFO - Email ID 379 classified as Business Critical (Importance: High) and moved successfully
+2025-03-03 12:08:06,574 - INFO - Processing email ID: b'381'
+2025-03-03 12:08:06,767 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:08:06,768 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:08:06,768 - INFO - Moving email ID b'381' to folder To Respond/High
+2025-03-03 12:08:06,953 - INFO - Attempting to create folder: INBOX.To_Respond.High
+2025-03-03 12:08:07,143 - INFO - Folder 'INBOX.To_Respond.High' already exists.
+2025-03-03 12:08:07,521 - INFO - Successfully moved email ID b'381' to folder 'INBOX.To_Respond.High'
+2025-03-03 12:08:07,522 - INFO - Email ID 381 classified as To Respond (Importance: High) and moved successfully
+2025-03-03 12:08:07,522 - INFO - Processing email ID: b'383'
+2025-03-03 12:08:07,710 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:08:07,711 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:08:07,711 - INFO - Moving email ID b'383' to folder FYI/High
+2025-03-03 12:08:07,896 - INFO - Attempting to create folder: INBOX.FYI.High
+2025-03-03 12:08:08,081 - INFO - Folder 'INBOX.FYI.High' already exists.
+2025-03-03 12:08:08,457 - INFO - Successfully moved email ID b'383' to folder 'INBOX.FYI.High'
+2025-03-03 12:08:08,458 - INFO - Email ID 383 classified as FYI (Importance: High) and moved successfully
+2025-03-03 12:08:08,458 - INFO - Processing email ID: b'385'
+2025-03-03 12:08:08,714 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:08:08,714 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:08:08,714 - INFO - Moving email ID b'385' to folder B2B Query/High
+2025-03-03 12:08:08,900 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:08:09,091 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:08:09,464 - INFO - Logging out from IMAP server...
+2025-03-03 12:08:09,648 - INFO - Successfully logged out.
+2025-03-03 12:14:06,811 - INFO - Starting enhanced email organization process...
+2025-03-03 12:14:06,811 - INFO - Attempting to create IMAP connection to imap.hostinger.com...
+2025-03-03 12:14:09,953 - ERROR - Failed to create IMAP connection: b'[AUTHENTICATIONFAILED] Authentication failed.'
+2025-03-03 12:14:09,954 - ERROR - Error in main process: b'[AUTHENTICATIONFAILED] Authentication failed.'
+2025-03-03 12:21:11,360 - INFO - Starting enhanced email organization process...
+2025-03-03 12:21:11,360 - INFO - Attempting to create IMAP connection to imap.hostinger.com...
+2025-03-03 12:21:12,281 - INFO - Successfully connected and logged in to IMAP server.
+2025-03-03 12:21:12,281 - INFO - Pre-creating all category folders...
+2025-03-03 12:21:12,628 - INFO - Created category folder: INBOX.To_Respond
+2025-03-03 12:21:12,802 - INFO - Created importance folder: INBOX.To_Respond.High
+2025-03-03 12:21:12,974 - INFO - Created importance folder: INBOX.To_Respond.Normal
+2025-03-03 12:21:13,147 - INFO - Created category folder: INBOX.B2B_Query
+2025-03-03 12:21:13,321 - INFO - Created importance folder: INBOX.B2B_Query.High
+2025-03-03 12:21:13,492 - INFO - Created importance folder: INBOX.B2B_Query.Normal
+2025-03-03 12:21:13,884 - INFO - Created category folder: INBOX.Business_Critical
+2025-03-03 12:21:14,056 - INFO - Created importance folder: INBOX.Business_Critical.High
+2025-03-03 12:21:14,227 - INFO - Created importance folder: INBOX.Business_Critical.Normal
+2025-03-03 12:21:14,399 - INFO - Created category folder: INBOX.FYI
+2025-03-03 12:21:14,572 - INFO - Created importance folder: INBOX.FYI.High
+2025-03-03 12:21:14,746 - INFO - Created importance folder: INBOX.FYI.Normal
+2025-03-03 12:21:14,917 - INFO - Created category folder: INBOX.Comment
+2025-03-03 12:21:15,091 - INFO - Created importance folder: INBOX.Comment.High
+2025-03-03 12:21:15,262 - INFO - Created importance folder: INBOX.Comment.Normal
+2025-03-03 12:21:15,434 - INFO - Created category folder: INBOX.Notification
+2025-03-03 12:21:15,606 - INFO - Created importance folder: INBOX.Notification.High
+2025-03-03 12:21:15,779 - INFO - Created importance folder: INBOX.Notification.Normal
+2025-03-03 12:21:15,951 - INFO - Created category folder: INBOX.Meeting_Update
+2025-03-03 12:21:16,124 - INFO - Created importance folder: INBOX.Meeting_Update.High
+2025-03-03 12:21:16,296 - INFO - Created importance folder: INBOX.Meeting_Update.Normal
+2025-03-03 12:21:16,467 - INFO - Created category folder: INBOX.Awaiting_Reply
+2025-03-03 12:21:16,638 - INFO - Created importance folder: INBOX.Awaiting_Reply.High
+2025-03-03 12:21:16,809 - INFO - Created importance folder: INBOX.Awaiting_Reply.Normal
+2025-03-03 12:21:16,982 - INFO - Created category folder: INBOX.Actioned
+2025-03-03 12:21:17,152 - INFO - Created importance folder: INBOX.Actioned.High
+2025-03-03 12:21:17,324 - INFO - Created importance folder: INBOX.Actioned.Normal
+2025-03-03 12:21:17,502 - INFO - Created category folder: INBOX.Marketing
+2025-03-03 12:21:17,673 - INFO - Created importance folder: INBOX.Marketing.High
+2025-03-03 12:21:17,846 - INFO - Created importance folder: INBOX.Marketing.Normal
+2025-03-03 12:21:18,019 - INFO - Created category folder: INBOX.Developer_Testing
+2025-03-03 12:21:18,191 - INFO - Created importance folder: INBOX.Developer_Testing.High
+2025-03-03 12:21:18,363 - INFO - Created importance folder: INBOX.Developer_Testing.Normal
+2025-03-03 12:21:18,537 - INFO - Created category folder: INBOX.General_Inquiry
+2025-03-03 12:21:18,710 - INFO - Created importance folder: INBOX.General_Inquiry.High
+2025-03-03 12:21:18,882 - INFO - Created importance folder: INBOX.General_Inquiry.Normal
+2025-03-03 12:21:19,228 - INFO - Found 2250 emails in INBOX
+2025-03-03 12:21:19,228 - INFO - Processing batch 1 to 50 of 2250 emails
+2025-03-03 12:21:19,228 - INFO - Processing email ID: b'913'
+2025-03-03 12:21:19,473 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:19,474 - INFO - Moving email ID b'913' to folder B2B Query/High
+2025-03-03 12:21:19,648 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:19,821 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:20,174 - INFO - Successfully moved email ID b'913' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:20,175 - INFO - Email ID 913 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:20,175 - INFO - Processing email ID: b'915'
+2025-03-03 12:21:20,350 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:21:20,360 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:21:20,360 - INFO - Moving email ID b'915' to folder Developer/Testing/Normal
+2025-03-03 12:21:20,535 - INFO - Attempting to create folder: INBOX.Developer_Testing.Normal
+2025-03-03 12:21:20,708 - INFO - Folder 'INBOX.Developer_Testing.Normal' already exists.
+2025-03-03 12:21:21,060 - INFO - Successfully moved email ID b'915' to folder 'INBOX.Developer_Testing.Normal'
+2025-03-03 12:21:21,060 - INFO - Email ID 915 classified as Developer/Testing (Importance: Normal) and moved successfully
+2025-03-03 12:21:21,061 - INFO - Processing email ID: b'917'
+2025-03-03 12:21:21,394 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:21,394 - INFO - Moving email ID b'917' to folder B2B Query/High
+2025-03-03 12:21:21,567 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:21,741 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:22,092 - INFO - Successfully moved email ID b'917' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:22,092 - INFO - Email ID 917 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:22,093 - INFO - Processing email ID: b'919'
+2025-03-03 12:21:22,426 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:22,426 - INFO - Moving email ID b'919' to folder B2B Query/High
+2025-03-03 12:21:22,632 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:22,805 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:23,159 - INFO - Successfully moved email ID b'919' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:23,159 - INFO - Email ID 919 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:23,160 - INFO - Processing email ID: b'921'
+2025-03-03 12:21:23,335 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:23,335 - INFO - Moving email ID b'921' to folder B2B Query/High
+2025-03-03 12:21:23,507 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:23,681 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:24,031 - INFO - Successfully moved email ID b'921' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:24,031 - INFO - Email ID 921 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:24,031 - INFO - Processing email ID: b'923'
+2025-03-03 12:21:24,262 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:24,262 - INFO - Moving email ID b'923' to folder B2B Query/High
+2025-03-03 12:21:24,452 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:24,627 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:24,976 - INFO - Successfully moved email ID b'923' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:24,976 - INFO - Email ID 923 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:24,976 - INFO - Processing email ID: b'925'
+2025-03-03 12:21:25,484 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:25,485 - INFO - Moving email ID b'925' to folder B2B Query/High
+2025-03-03 12:21:25,659 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:25,832 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:26,185 - INFO - Successfully moved email ID b'925' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:26,185 - INFO - Email ID 925 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:26,186 - INFO - Processing email ID: b'927'
+2025-03-03 12:21:26,401 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:21:26,409 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:21:26,409 - INFO - Moving email ID b'927' to folder To Respond/Normal
+2025-03-03 12:21:26,581 - INFO - Attempting to create folder: INBOX.To_Respond.Normal
+2025-03-03 12:21:26,754 - INFO - Folder 'INBOX.To_Respond.Normal' already exists.
+2025-03-03 12:21:27,102 - INFO - Successfully moved email ID b'927' to folder 'INBOX.To_Respond.Normal'
+2025-03-03 12:21:27,102 - INFO - Email ID 927 classified as To Respond (Importance: Normal) and moved successfully
+2025-03-03 12:21:27,102 - INFO - Processing email ID: b'929'
+2025-03-03 12:21:27,440 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:27,440 - INFO - Moving email ID b'929' to folder B2B Query/High
+2025-03-03 12:21:27,613 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:27,789 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:28,139 - INFO - Successfully moved email ID b'929' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:28,139 - INFO - Email ID 929 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:28,139 - INFO - Processing email ID: b'931'
+2025-03-03 12:21:28,441 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:28,441 - INFO - Moving email ID b'931' to folder B2B Query/High
+2025-03-03 12:21:28,616 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:28,789 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:29,141 - INFO - Successfully moved email ID b'931' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:29,141 - INFO - Email ID 931 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:29,141 - INFO - Progress: Processed 10 of 2250 emails. Success: 10
+2025-03-03 12:21:29,142 - INFO - Processing email ID: b'933'
+2025-03-03 12:21:29,319 - INFO - Classifying 1 emails into categories...
+2025-03-03 12:21:29,319 - INFO - Classification complete. Categories: ['To Respond', 'B2B Query', 'Business Critical', 'FYI', 'Comment', 'Notification', 'Meeting Update', 'Awaiting Reply', 'Actioned', 'Marketing', 'Developer/Testing', 'General Inquiry']
+2025-03-03 12:21:29,319 - INFO - Moving email ID b'933' to folder FYI/Normal
+2025-03-03 12:21:29,492 - INFO - Attempting to create folder: INBOX.FYI.Normal
+2025-03-03 12:21:29,666 - INFO - Folder 'INBOX.FYI.Normal' already exists.
+2025-03-03 12:21:30,017 - INFO - Successfully moved email ID b'933' to folder 'INBOX.FYI.Normal'
+2025-03-03 12:21:30,017 - INFO - Email ID 933 classified as FYI (Importance: Normal) and moved successfully
+2025-03-03 12:21:30,018 - INFO - Processing email ID: b'935'
+2025-03-03 12:21:30,339 - INFO - Email classified as B2B Query (High) based on business signals
+2025-03-03 12:21:30,339 - INFO - Moving email ID b'935' to folder B2B Query/High
+2025-03-03 12:21:30,511 - INFO - Attempting to create folder: INBOX.B2B_Query.High
+2025-03-03 12:21:30,685 - INFO - Folder 'INBOX.B2B_Query.High' already exists.
+2025-03-03 12:21:31,035 - INFO - Successfully moved email ID b'935' to folder 'INBOX.B2B_Query.High'
+2025-03-03 12:21:31,036 - INFO - Email ID 935 classified as B2B Query (Importance: High) and moved successfully
+2025-03-03 12:21:31,036 - INFO - Processing email ID: b'937'
+2025-03-03 12:21:31,210 - INFO - Logging out from IMAP server...
+2025-03-03 12:21:31,210 - ERROR - Failed to log out: command: LOGOUT => unexpected response: b'Version:Message-ID:Reply-To:Subject:To; '
+2025-03-03 12:40:40,887 - INFO - Starting enhanced email organization process...
+2025-03-03 12:40:40,887 - INFO - Attempting to create IMAP connection to imap.hostinger.com...
+2025-03-03 12:40:41,880 - INFO - Successfully connected and logged in to IMAP server.
+2025-03-03 12:40:41,880 - INFO - Pre-creating all category folders...
+2025-03-03 12:40:42,240 - INFO - Created category folder: INBOX.To_Respond
+2025-03-03 12:40:42,420 - INFO - Created importance folder: INBOX.To_Respond.High
+2025-03-03 12:40:42,605 - INFO - Created importance folder: INBOX.To_Respond.Normal
+2025-03-03 12:40:42,809 - INFO - Created category folder: INBOX.B2B_Query
+2025-03-03 12:40:42,988 - INFO - Created importance folder: INBOX.B2B_Query.High
+2025-03-03 12:40:43,167 - INFO - Created importance folder: INBOX.B2B_Query.Normal
+2025-03-03 12:40:43,348 - INFO - Created category folder: INBOX.Business_Critical
+2025-03-03 12:40:43,527 - INFO - Created importance folder: INBOX.Business_Critical.High
+2025-03-03 12:40:43,706 - INFO - Created importance folder: INBOX.Business_Critical.Normal
+2025-03-03 12:40:43,885 - INFO - Created category folder: INBOX.FYI
+2025-03-03 12:40:44,068 - INFO - Created importance folder: INBOX.FYI.High
+2025-03-03 12:40:44,247 - INFO - Created importance folder: INBOX.FYI.Normal
+2025-03-03 12:40:44,424 - INFO - Created category folder: INBOX.Comment
+2025-03-03 12:40:44,603 - INFO - Created importance folder: INBOX.Comment.High
+2025-03-03 12:40:44,794 - INFO - Created importance folder: INBOX.Comment.Normal
+2025-03-03 12:40:44,974 - INFO - Created category folder: INBOX.Notification
+2025-03-03 12:40:45,158 - INFO - Created importance folder: INBOX.Notification.High
+2025-03-03 12:40:45,341 - INFO - Created importance folder: INBOX.Notification.Normal
+2025-03-03 12:40:45,519 - INFO - Logging out from IMAP server...
+2025-03-03 12:40:45,698 - INFO - Successfully logged out.
