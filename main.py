@@ -43,7 +43,7 @@ CATEGORIES = [
     "Marketing - Offers", "Marketing - Campaigns", "Marketing - Surveys", "Marketing - Ads",
     "General Inquiry - Personal", "General Inquiry - Unsolicited", "General Inquiry - Info Requests", "General Inquiry - Miscellaneous"
 ]
-
+OUR_DOMAINS = ['nectorinternational.com', 'kobralabs.com', 'nectorfoods.com', 'mypurna.com']
 EMAIL_COUNT = 0
 
 # Constants for optimization
@@ -372,10 +372,15 @@ def read_and_process_email(mail: imaplib.IMAP4_SSL, email_id: str) -> Optional[d
                 msg = message_from_bytes(raw_email)
                 subject = decode_subject(msg["subject"]) if msg["subject"] else ""
                 sender_info = extract_sender_info(msg)
+                domain_name = sender_info['email'].split('@')[1]
                 logging.info("BELOW IS THE EMAIL subject")
                 logging.info(subject)
                 
-                # Extract body
+                # Early exit if domain matches our domains
+                if domain_name in OUR_DOMAINS:
+                    logging.info(f"Skipping email ID {email_id}: Domain {domain_name} is in our domains")
+                    return None  # This exits the entire function
+                
                 body = ""
                 if msg.is_multipart():
                     for part in msg.walk():
@@ -488,7 +493,6 @@ def main() -> None:
     logging.info("Starting email organization process with OpenAI API and 5-second delays...")
     mail = None
     try:
-        logging.info(MY_NAME)
         mail = create_connection()
         create_all_category_folders(mail)            
         mail.select("INBOX")
